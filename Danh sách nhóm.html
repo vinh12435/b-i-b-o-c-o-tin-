@@ -1,0 +1,153 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thời khóa biểu lớp 12/3</title>
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background: linear-gradient(135deg, #f7f7f7, #e1e8f0);
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            height: 100vh;
+            flex-direction: column;
+            padding-top: 30px;
+        }
+
+        table {
+            width: 85%;
+            border-collapse: collapse;
+            background-color: #ffffff;
+            border: 3px solid #6c5ce7;
+            border-radius: 10px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+            border-bottom: 3px solid #6c5ce7;
+        }
+
+        caption {
+            font-family: 'Lora', serif;
+            font-size: 30px;
+            font-weight: bold;
+            color: #6c5ce7;
+            margin-bottom: 20px;
+        }
+
+        th {
+            background: #ff6b6b;
+            color: white;
+            padding: 16px 12px;
+            font-size: 18px;
+            text-align: center;
+            border: 3px solid #6c5ce7;
+            border-bottom: 3px solid #6c5ce7;
+        }
+
+        td {
+            text-align: center;
+            color: #2c3e50;
+            padding: 18px;
+            font-size: 16px;
+            border-top: 3px solid #6c5ce7;
+            border-right: 3px solid #6c5ce7;
+        }
+
+        tr:nth-child(even) {
+            background-color: #ecf0f1;
+        }
+
+        tr:hover {
+            background-color: #e74c3c;
+            color: white;
+            cursor: pointer;
+            transition: background-color 0.3s ease-in-out;
+        }
+
+        td:first-child {
+            border-left: 3px solid #6c5ce7;
+        }
+
+        td:last-child {
+            border-right: 3px solid #6c5ce7;
+        }
+
+        a {
+            display: inline-block;
+            text-align: center;
+            padding: 12px 24px;
+            background-color: #6c5ce7;
+            color: white;
+            font-size: 18px;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 5px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+            transition: background-color 0.3s ease;
+            position: absolute;
+            bottom: 20px;
+            right: 20px;
+        }
+
+        a:hover {
+            background-color: #5e4cb4;
+        }
+
+        @media (max-width: 768px) {
+            table {
+                width: 90%;
+            }
+        }
+
+        .footer-link {
+            text-align: right;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <table border="1" style="border-collapse:collapse;width:95%;height:45px">
+        <caption><b>Danh sách thành viên của nhóm</b></caption>
+        <tr style="height:60px; background-color:#ff6b6b;">
+            <th>STT</th>
+            <th>Họ và Tên</th>
+            <th>Tính cách</th>
+            <th>Sở thích</th>
+            <th>Môn học yêu thích</th>
+        </tr>
+        <tr style="height:45px;text-align:center;color:green">
+            <td>1</td>
+            <td>Đặng Phước Vinh</td>
+            <td>Hòa đồng, Trách nhiệm</td>
+            <td>Chơi game, Nghe Nhạc</td>
+            <td>Vật lý</td>
+        </tr>
+        <tr style="height:45px;text-align:center;color:green">
+            <td>2</td>
+            <td>Võ Tấn Truyền</td>
+            <td>Năng động, Hòa đồng</td>
+            <td>Chơi thể thao</td>
+            <td>Vật Lý, Tiếng Anh</td>
+        </tr>
+        <tr style="height:45px;text-align:center;color:green">
+            <td>3</td>
+            <td>Huỳnh Ngọc Minh Như</td>
+            <td>Lạc quan, Kỉ luật</td>
+            <td>Chơi game</td>
+            <td>Tiếng Anh, Toán</td>
+        </tr>
+        <tr style="height:45px;text-align:center;color:green; border-bottom: 3px solid #6c5ce7">
+            <td>4</td>
+            <td>Nguyễn Hải Bình</td>
+            <td>Vui vẻ, Hoạt bác</td>
+            <td>Chơi thể thao, Ngủ</td>
+            <td>Tin học, Hóa học, Vật Lý</td>
+        </tr>
+    </table>
+
+    <div class="footer-link">
+        <a href="Bài báo cáo Tin.html"><span style="font-size:20px;">Quay về trang chủ</span></a>
+    </div>
+</body>
+</html>
